@@ -5,8 +5,7 @@
 {% endblock title %}
  
 {% block content %}
-    <h2>{{ flatpage.title }}</h2>
-    <hr>
-    {{ flatpage.content }}
-	{{ flatpage.content }}
+	<h2><em><strong><span style="text-decoration: underline;">{{ flatpage.title }}</span></strong></em></h2>
+	<hr />
+	<h2><span style="text-decoration: line-through;"><em><span style="color: #ff0000;"><strong>{{ flatpage.content }}</strong></span></em></span></h2>
 {% endblock content %}
